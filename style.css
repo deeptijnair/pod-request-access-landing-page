@@ -2,7 +2,7 @@ body{
     display: flex;
     width: 1440px;
     font-family: 'Chivo';
-    font-weight: light;
+    font-weight: lighter;
     background-color: hsl(224, 35%, 11%);
     color: white;
     margin: 0 auto;
@@ -13,7 +13,7 @@ body{
     padding: 10px;
     display: inline-block;
     background-color: hsl(224, 35%, 11%);
-    max-height: 630px;
+    max-height: 620px;
     min-height: 200px;
     height: auto;
     border-radius: 30px;
@@ -21,8 +21,6 @@ body{
     margin-left: 300px;
     max-width: 430px;
     min-width: 300px;
-    width: auto;  
-    justify-content: center;
 }
 
 #logo-detail{
@@ -40,6 +38,7 @@ body{
     margin-top: 80px;
     margin-left: 165px;
     font-size: 40px;
+    font-weight: 500;
 
 
 }
@@ -47,22 +46,29 @@ body{
     position: absolute;
     margin-left: 500px;
     margin-top: 100px;
-    width: 100%;
+    width: 100opx;
+
+}
+.circle-col{
+    position: absolute;
+    margin-left: 1155px;
+    margin-top: 695px;
+    left: 0;
 }
 .wrap {
-    position:relative;
-  }
-  
-.wrap:before {
-    content:"";
-    position: absolute;
-    top:0;
-    left:0; 
-    height:100%;
-    width:100%;
-    background: rgba(84, 230, 175, 0.509);
-    z-index:9;
+        position:relative;
 }
+      
+.wrap:before {
+        content:"";
+        position: absolute;
+        height:100%;
+        width:100%;
+        opacity: .3;
+        background: rgba(3, 255, 158, 0.9);
+        z-index: 9;
+        
+    }
 
 #left-area{
     position: absolute;
@@ -73,12 +79,10 @@ body{
     margin-top: 250px;
     margin-left: 130px;
     padding-right: 50px;
-    
 }
- 
 
-#content{
-    margin-top: 85px;
+#pod-content{
+    margin-top: 90px;
     
 }
 span{
@@ -93,23 +97,25 @@ h1{
 p{
     font-weight: lighter;
     font-size: 18px;
+    color: hsl(225,40%,83%);
+    line-height: 30px;
  }
 
 #form{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 input{
     position: absolute;
     background-color: hsl(225, 26%, 23%);
-    width: 290px;
+    width: 400px;
     height: 40px;
     border: none;
     border-radius: 100px;
-    color: black;
+    color: white;
     padding-left: 15px;
-    
 }
+
 .button{
     position: absolute;
     background-color: hsl(157, 74%, 62%);
@@ -118,7 +124,7 @@ input{
     color: hsl(224, 35%, 11%);
     width: 120px;
     height: 35px;
-    margin-left:184px;
+    margin-left:293px;
     margin-top: 3px;
     font-size: 12px;
     font-weight: 600;
@@ -131,8 +137,11 @@ input{
 }
 
 #email-error{
+    position: absolute;
     font-size: 10px; 
     color: red;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 #podcasts-logo{
@@ -166,10 +175,11 @@ input{
 
 .attribution { 
     margin-top: 950px;
-    font-size: 11px; 
+    margin-left: 550px;
+    font-size: 13px; 
     text-align: center; 
 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(168, 45%, 44%); 
 }
