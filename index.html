@@ -1,71 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-</head>
-<body>
-
-  <!-- Sign-up form start -->
-<section class="container">
-    <div id="image">
-        <div class="wrap"><img src="./assets/images/image_person.svg"></div>
-
-    </div>
-    <div class="circle-col"><img src="./assets/images/Combined Shape.svg"></div>
-
-    <div id="logo-detail">
-        <div id="logo"><img class="image" src="./assets/images/pod_logo.svg"></div>
-        <div id="pod-logo">pod</div>
-        
-
-    </div>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     
-    <div id="left-area">
-        <div id="pod-content">
-            <h1><span>PUBLISH YOUR PODCASTS</span></h1>
-            <h1>EVERYWHERE.</h1>
-            <p>Upload your audio to Pod with a single click. We’ll<br> then distribute your podcast to Spotify, Apple<br> Podcasts, Google Podcasts, Pocket Casts and more!</p>
-             
+    
+    <title>Frontend Mentor | Pod request access landing page</title>
+
+    </head>
+    <body>
+
+    
+    <section class="container">
+        <div id="image">
+            <div class="wrap"><img src="./assets/images/image_person.svg" alt="image of a person"></div>
+
         </div>
-       
-        <section id="form">
+        <div class="circle-col"><img src="./assets/images/Combined Shape.svg" alt="row of dots"></div>
+
+        <div id="logo-detail">
+            <div id="logo"><img class="image" src="./assets/images/pod_logo.svg" alt="logo"></div>
+            <div id="pod-logo">pod</div>
+            
+
+        </div>
         
-        <input type="email" id="email-input" placeholder="Email address">
-        <span id="email-error"></span>  
-        <section id="submit"><button class="button" onclick="validateEmail()">Request Access</button></section>  
-      </section>
+        <div id="left-area">
+            <div id="pod-content">
+                <h1><span>PUBLISH YOUR PODCASTS</span></h1>
+                <h1>EVERYWHERE.</h1>
+                <p>Upload your audio to Pod with a single click. We’ll<br> then distribute your podcast to Spotify, Apple<br> Podcasts, Google Podcasts, Pocket Casts and more!</p>
+                
+            </div>
+            
+            <!-- Sign-up form start -->
+        
+            <section id="form">
+            
+            <input type="email" id="email-input" placeholder="Email address">
+            <span id="email-error"></span>  
+            <section id="submit"><button class="button" onclick="validateEmail()">Request Access</button></section>  
+        </section>
+            <!-- Sign-up form end -->
 
-      <div id="podcasts-logo">
-        <div id="spotify"><img src="./assets/images/Spotify_logo_with_text 2.svg"></div>
-        <div id="apple"><img src="./assets/images/apple_podcasts.svg"></div>
-        <div id="google"><img src="./assets/images/google_podcasts.svg"></div>
-        <div id="pocket"><img src="./assets/images/pocket_casts.svg"></div>
+        <div id="podcasts-logo">
+            <div id="spotify"><img src="./assets/images/Spotify_logo_with_text 2.svg" alt="spotify logo"></div>
+            <div id="apple"><img src="./assets/images/apple_podcasts.svg" alt="apple podcast logo"></div>
+            <div id="google"><img src="./assets/images/google_podcasts.svg" alt="google podcast logo"></div>
+            <div id="pocket"><img src="./assets/images/pocket_casts.svg" alt="pocket cast logo"></div>
 
-      </div>
+        </div>
 
+        </div>
+    
+    
+
+    </section>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Deepthi Jayachandran Nair</a>.
     </div>
-  
- 
 
-</section>
+    <script src="podcast.js"></script>
 
-<div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Deepthi Jayachandran Nair</a>.
-</div>
-
-<script src="podcast.js"></script>
-
-</body>
-</html>
+    </body>
+    </html>
