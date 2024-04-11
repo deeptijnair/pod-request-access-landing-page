@@ -1,3 +1,5 @@
+![image](https://github.com/deeptijnair/pod-request-access-landing-page-figma/assets/11665833/5537cb48-46d7-4074-a14f-e78ee8f9965b)
+
 The challenge is to build out an early access landing page.
 
 The tools used are HTML, CSS and JavaScript.
